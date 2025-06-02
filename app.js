@@ -19,8 +19,7 @@ if(values<=10 && values>0){
 
     result.textContent = `${values} Dice : ` + results.join(",");
     image.innerHTML = img.join("");
-    results = [];
-    img = [];
+
     
 }
 
